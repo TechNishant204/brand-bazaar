@@ -35,7 +35,7 @@ const ProductList = () => {
 
   return (
     <div className="container mx-auto  bg-gray-900">
-      /* Hero Section */
+      {/* Hero Section */}
       <div className="relative mb-12">
         <img
           src="./images/pic4.webp"
