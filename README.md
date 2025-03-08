@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/40751013-2e63-475e-877f-9d4b823b6598)
 <br>
-Visit BrandBazaar: <a href="https://brandbazaar.netlify.app/">Deployed Site</a>
+<p align='center'>Visit BrandBazaar: <a href="https://brandbazaar.netlify.app/">BrandBazaar.com</a></p>
 
 
 
