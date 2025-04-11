@@ -61,7 +61,7 @@ const ProductCard = ({ product }) => {
           </div>
           <button
             onClick={handleAddToCart}
-            className={`rounded-lg px-6 py-2 shadow-md ${
+            className={`rounded-lg px-5 py-2 shadow-md ${
               isProductInCart
                 ? "bg-red-500 hover:bg-red-600"
                 : "bg-blue-500 hover:bg-blue-600"
