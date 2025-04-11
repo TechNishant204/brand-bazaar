@@ -13,7 +13,7 @@ const Cart = () => {
     );
   };
   const handlePay = () =>{
-    toast.success("Your payment of ${$total} was successfully completed");
+    toast.success("Your payment was successful");
   }
   const handleRemoveFromCart = (itemId) => {
     removeFromCart(itemId);
