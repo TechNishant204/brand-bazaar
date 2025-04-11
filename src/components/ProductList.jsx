@@ -42,7 +42,7 @@ const ProductList = () => {
           className="w-full h-auto object-cover"
           alt=""
         />
-        <button className="absolute sm:bottom-10 md:bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white text-sm md:text-base px-4 py-2 md:px-8 md:py-3 hover:scale-110 duration-200 rounded-full hover:bg-gray-700">
+        <button className="absolute sm:bottom-10 md:bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white text-sm md:text-base px-4 py-2 md:px-8 md:py-3 hover:scale-110 duration-200 rounded-full hover:bg-gray-500">
           Explore Now
         </button>
       </div>
