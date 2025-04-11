@@ -12,7 +12,9 @@ const Cart = () => {
       0
     );
   };
-
+  const handlePay = () =>{
+    toast.success("Your payment of ${$total} was successfully completed");
+  }
   const handleRemoveFromCart = (itemId) => {
     removeFromCart(itemId);
     if (cartItems.length === 1) {
@@ -70,7 +72,9 @@ const Cart = () => {
                 Total: ${total.toFixed(2)}
               </p>
             </div>
-            <button className="bg-blue-500 hover:bg-blue-700 px-6 md:px-auto hover:scale-105 text-white font-semibold py-2 rounded-lg my-4 md:my-12 block mx-auto">
+            <button className="bg-blue-500 hover:bg-blue-700 px-6 md:px-auto hover:scale-105 text-white font-semibold py-2 rounded-lg my-4 md:my-12 block mx-auto"
+              onClick= {handlePay}
+              >
               Pay
             </button>
           </>
